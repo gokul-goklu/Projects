@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+h2{
+    margin: 0;
+}
+#Container{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.RegisterFields{
+    margin-top: 10px;
+}
+.form-group{
+    margin-bottom: 10px;
+   
+}
+.form-group label{
+    margin-bottom: 15px;
+    color: rgb(4, 2, 15);
+}
+.submitBtn{
+   
+}
