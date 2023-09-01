@@ -4,59 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 70vh;
-      }
-      h2 {
-        margin: 0;
-      }
-      #Container {
-        background-color: aqua;
-        padding: 20px;
-        border-radius: 10px;
-        width: 186px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .RegisterFields {
-        margin-top: 10px;
-      }
-      .form-group {
-        margin-bottom: 10px;
-      }
-      .form-group label {
-        margin-bottom: 5px;
-        display: block;
-        color: rgb(4, 2, 15);
-      }
-      .form-group input {
-        border-radius: 4px;
-        border: rebeccapurple;
-        padding: 7px;
-      }
-      .submitBtn {
-        border: none;
-        border-radius: 3px;
-        padding: 10px 20px;
-        margin-left: 50px;
-        transition: background-color 0.6s, color 0.6s;
-      }
-      .submitBtn:hover {
-        background-color: #007bff;
-        color: #fff;
-      }
-    </style>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="Container">
@@ -73,7 +22,7 @@
           </div>
           <div class="form-group">
             <label for="Phone">Phone: </label>
-            <input type="number" id="number" placeholder="Phone" />
+            <input type="tel" id="number" placeholder="Phone" />
           </div>
           <div class="form-group">
             <label for="password">password: </label>
@@ -82,6 +31,8 @@
         </div>
         <button class="submitBtn">Submit</button>
       </form>
+      <div id="resultText"></div>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
