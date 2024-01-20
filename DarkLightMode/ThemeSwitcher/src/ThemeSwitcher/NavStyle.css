@@ -1,0 +1,26 @@
+[data-theme="Dark"]{
+--b-color:rgb(207, 103, 103);
+--text-color:rgb(10, 10, 10);
+}
+[data-theme="Light"]{
+--b-color:rgb(33, 18, 18);
+--txt-color:rgb(255, 234, 234);
+}
+
+
+.inner-cell{
+    text-decoration: none;
+    color:var(--txt-color)
+}
+.outer-cell{
+    display: flex;
+    background-color: var(--b-color);
+    padding: 20px;
+    justify-content: space-around;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
